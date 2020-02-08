@@ -13,12 +13,48 @@ main {
     padding: 20px;
 }
 
-header .logo {
+
+/* BEGIN LOGO STYLING */ 
+header .logo{
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    display: flex;
+  }
+  header .logo .name{
+    background: blue;
+    padding: 0.5rem 0.7rem 0.5rem 0.7rem;
+    text-decoration: none;
+    color: white;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+  }
+  header .logo p{
+    background: lightskyblue;
+    text-decoration: none;
+    color:#0000ff;
+    font-size:0.8rem;
+    border:1px solid #0000ff;
+    text-transform:capitalize;    
+    text-align:center;
+    font-weight:600;
+    padding:1.0px 3px;
+    /* padding:0.5px 3px; */
+
+
+    width:30px; 
+    /* max-width: fit-content;  */
+    text-align:center;
+  }
+  /* END LOGO STYLING */ 
+
+/* BEGIN OLLLLLD LOGO STYLING */
+/* header .logo {
     font-weight: 600;
     display: flex;
     flex-direction: column;
 }
-
 header .logo .name {
     background: blue;
     padding: 5px 5px 7px 5px;
@@ -31,7 +67,6 @@ header .logo .name {
     text-transform: uppercase;
     text-align: center;
 }
-
 header .logo p {
     background: lightskyblue;
     text-decoration: none;
@@ -43,7 +78,8 @@ header .logo p {
     font-weight: 300;
     padding: 5px 5px;
     margin-top: 0px;
-}
+} */
+/* END OLLLLLD LOGO STYLING */
 
 h1 {
     color: #ff00ff;
@@ -105,7 +141,8 @@ a {
     margin-top: 50px;
     margin-bottom: 50px;
     padding: 20px;
-    background-color: #E6E6FA;
+    /* background-color: #E6E6FA; */
+    background-color:#dbf1ff;
 }
 
 .section-2 {
@@ -120,8 +157,9 @@ a {
     margin-top: 100px;
     margin-bottom: 100px;
     padding: 20px;
-    background-color: #E6E6FA;
+    /* background-color: #E6E6FA; */
     /* background-color: mintcream; */
+    background-color:#dbf1ff;
 }
 
 

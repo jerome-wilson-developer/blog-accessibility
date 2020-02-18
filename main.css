@@ -123,8 +123,11 @@ a {
 
 
     padding: 20px;
+    /* background-color:#dbf1ff; */
     /* background-color: #E6E6FA; */
-    background-color:#dbf1ff;
+    background-color: mintcream;
+    /* background-color: #eeeeee; */
+
 }
 .section-2 {
     /* margin-top: 100px;
@@ -177,7 +180,9 @@ a {
 
     padding: 20px;
     /* background-color: #E6E6FA; */
-    background-color:#dbf1ff;
+    /* background-color:#dbf1ff; */
+    /* background-color: #E6E6FA; */
+    background-color: mintcream;
 }
 
 

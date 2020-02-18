@@ -58,6 +58,15 @@ header .header-menu{
     text-align:center;
     font-weight:600;
   }
+  ul{
+      margin:0px;
+      padding:0px;
+      margin-left: 50px;
+  }
+  ul li{
+      font-size: 1.0rem;
+      color: #393939;
+  }
   /* END GLOBAL LOGO STYLING */ 
 h1 {
     color: #ff00ff;
@@ -108,27 +117,70 @@ a {
 .section-1 {
     border: 1px solid #494949;
     border-radius: 10px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    /* margin-top: 50px; */
+    /* margin-bottom: 50px; */
+    margin: 50px 100px;
+
+
     padding: 20px;
     /* background-color: #E6E6FA; */
     background-color:#dbf1ff;
 }
 .section-2 {
-    margin-top: 100px;
+    /* margin-top: 100px;
     margin-bottom: 100px;
+    padding: 20px; */
+
+    /* border: 1px solid #494949; */
+    /* border-radius: 10px; */
+    /* margin-top: 50px; */
+    /* margin-bottom: 50px; */
+    margin: 50px 100px;
+
+
     padding: 20px;
+    /* background-color: #E6E6FA; */
+    background-color:#dbf1ff;
+    /* background-color: #E6E6FA; */
+    /* background-color: mintcream; */
 }
 .section-3 {
-    border: 1px solid #494949;
+    /* border: 1px solid #494949;
     border-radius: 10px;
     margin-top: 100px;
     margin-bottom: 100px;
     padding: 20px;
+    background-color:#dbf1ff; *//* margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 20px; */
+
+    /* border: 1px solid #494949; */
+    /* border-radius: 10px; */
+    /* margin-top: 50px; */
+    /* margin-bottom: 50px; */
+    margin: 50px 100px;
+
+
+    padding: 20px;
+    /* background-color: #E6E6FA; */
+    /* background-color:#dbf1ff; */
     /* background-color: #E6E6FA; */
     /* background-color: mintcream; */
+}
+.section-5 {
+    border: 1px solid #494949;
+    border-radius: 10px;
+    /* margin-top: 50px; */
+    /* margin-bottom: 50px; */
+    margin: 50px 100px;
+
+
+    padding: 20px;
+    /* background-color: #E6E6FA; */
     background-color:#dbf1ff;
 }
+
+
 /* Tablet View */
 @media all and (min-width: 768px) and (max-width: 959px){
     header{
